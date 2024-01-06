@@ -1,5 +1,5 @@
-# Use an official TensorFlow runtime as a parent image
-FROM tensorflow/tensorflow:latest
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim-buster
 
 # Set the working directory
 WORKDIR /app
@@ -8,14 +8,10 @@ WORKDIR /app
 COPY . /app
 
 # Install any dependencies
-# (Note: Customize this part based on your project's requirements)
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Define environment variable
-ENV NAME World
+# Expose the port the app runs in
+EXPOSE 5000
 
-# Run the command when the container starts
-CMD ["python", "your_script.py"]
-
-#docker build -t my_tensorflow_app .
-#docker run -it my_tensorflow_app
-#docker run -it -v $(pwd):/app my_tensorflow_app
+# Define the command to start the app using uvicorn
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
