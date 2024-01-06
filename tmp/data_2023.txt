@@ -2397,7 +2397,7 @@
 |HKL40
 |174
 |[['62 Corvette Gasser]] (2nd Color)
-|bgcolor="#74C365" |[[HW Gassers Mini Collection (2023)|<font color="black">HW Gassers</font>]]<br><font color="black">'''Dollar General Exclusive'''<font/>
+|bgcolor="#74C365" |[[HW Gassers Mini Collection (2023)|<font color="black">HW Gassers</font>]]<br><font color="black">'''Dollar General Exclusive'''</font>
 |3/5
 |[[File:TimePhoto 20231113 163854.jpg|75px]]
 |-

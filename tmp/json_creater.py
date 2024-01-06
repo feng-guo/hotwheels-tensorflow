@@ -5,7 +5,7 @@ from link_getter import get_image_url
 from urllib.parse import quote
 
 # Read the file
-with open(os.path.join(os.path.dirname(__file__), 'data_2024.txt'), 'r') as file:
+with open(os.path.join(os.path.dirname(__file__), 'temp.txt'), 'r') as file:
     data = file.read()
 
 # Split the file into lines
@@ -49,26 +49,20 @@ for i, line in enumerate(lines):
 
         other = []
         for s in lines[i + 4].split('<br')[1:]:
-            match = re.search(r'<font color=".*?">(.*?)<\/font>', s.replace("'''", ""))  # Remove triple quotes
+            match = re.search(r'<font color=".*?">(.*?)<\/font>|\'\'\'(.*?)\'\'\'', s)  # Match text enclosed in <font> tags or triple quotes
             if match is not None:
-                text = match.group(1).replace("'", "")
-                if 'New for 2023!' in text:
-                    other.append('New 2023')
-                if 'New for 2022!' in text:
-                    other.append('New 2022')
-                elif 'Exclusive' in text:
-                    # Split the text into words
-                    words = text.split(' ')
-                    # Find the index of 'Exclusive'
-                    index = words.index('Exclusive')
-                    # Join all the words before 'Exclusive'
-                    before_exclusive = ' '.join(words[:index])
-                    # Add the words before 'Exclusive' to other
-                    other.append(before_exclusive)
+                text = match.group(1) if match.group(1) else match.group(2)  # If the first group is None (no match), use the second group
+                text = text.replace("'", "")
+                match = re.search(r'New for (\d{4})!', text)
+                if match:
+                    year = match.group(1)
+                    other.append(f'New {year}')
                 elif 'Super Treasure Hunt' in text:
                     other.append('STH')
                 elif 'Treasure Hunt' in text:
                     other.append('TH')
+                elif 'Kroger' in text:
+                    other.append('Kroger Exclusive')
                 else:
                     other.append(text)
 
@@ -94,5 +88,5 @@ for i, line in enumerate(lines):
 json_data = json.dumps(cars, indent=2)
 
 # Write the JSON to a file
-with open(os.path.join(os.path.dirname(__file__), 'cars_2024.json'), 'w') as file:
+with open(os.path.join(os.path.dirname(__file__), 'test_reader.json'), 'w') as file:
     file.write(json_data)

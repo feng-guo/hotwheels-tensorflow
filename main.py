@@ -7,7 +7,8 @@ app = FastAPI()
 
 # Add CORS middleware
 origins = [
-    "http://localhost:3000",  # Assuming your Next.js app runs on this origin
+    "http://localhost:3000",  # LocalDev
+    "https://feng-guo.netlify.app", # Prod
     # Add any other origins you need
 ]
 

@@ -549,35 +549,35 @@
 |HCV42
 |040
 |[[Fig Rig]]
-| bgcolor="#0087BD" |[[HW Ride-Ons Mini Collection (2022)|<font color="black">HW Ride-Ons<font/>]][[HW Ride-Ons Mini Collection (2022)|<font color="black">]][[HW Ride-Ons Mini Collection (2022)|<font color="black">]][[HW Ride-Ons Mini Collection (2022)|<font color="black">]]
+| bgcolor="#0087BD" |[[HW Ride-Ons Mini Collection (2022)|<font color="black">HW Ride-Ons</font>]]
 |3/5
 |[[File:HCV42-Carded.jpg|75px]]
 |-
 |HCV28
 |041
 |[['16 Ford Focus RS|Ford Focus RS]]
-| bgcolor="lime" |[[HW Hatchbacks Mini Collection (2022)|<font color="black">HW Hatchbacks<font/>]][[HW Hatchbacks Mini Collection (2022)|<font color="black">]][[HW Hatchbacks Mini Collection (2022)|<font color="black">]][[HW Hatchbacks Mini Collection (2022)|<font color="black">]]
+| bgcolor="lime" |[[HW Hatchbacks Mini Collection (2022)|<font color="black">HW Hatchbacks</font>]]
 |3/5
 |[[File:HCV28-01.JPG|75px]]
 |-
 |HCY50
 |041
 |[['16 Ford Focus RS|Ford Focus RS]] (2nd Color)
-| bgcolor="lime" |[[HW Hatchbacks Mini Collection (2022)|<font color="black">HW Hatchbacks<font/>]]<br><font color="black">'''[[Kroger]] Exclusive'''</font>
+| bgcolor="lime" |[[HW Hatchbacks Mini Collection (2022)|<font color="black">HW Hatchbacks</font>]]<br><font color="black">'''[[Kroger]] Exclusive'''</font>
 |3/5
 |[[File:HCY50_-_Ford_Focus_RS-1.jpg|75px]]
 |-
 |HCX73
 |041
 |[['16 Ford Focus RS|Ford Focus RS]] (3rd Color)
-| bgcolor="lime" |[[HW Hatchbacks Mini Collection (2022)|<font color="black">HW Hatchbacks<font/>]]
+| bgcolor="lime" |[[HW Hatchbacks Mini Collection (2022)|<font color="black">HW Hatchbacks</font>]]
 |3/5
 |[[File:Ford Focus RS orange (2022).jpeg|75px]]
 |-
 |HCV26
 |042
 |[[VW Bug|Volkswagen Beetle]]
-| bgcolor="#D7B1CB" |[[Compact Kings Mini Collection (2022)|<font color="black">Compact Kings<font/>]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]]
+| bgcolor="#D7B1CB" |[[Compact Kings Mini Collection (2022)|<font color="black">Compact Kings</font>]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]]
 |2/5
 |[[File:Beetle. Blue Woodie. Compact Kings.jpg|75px]]
 |-
@@ -591,7 +591,7 @@
 |HCW88
 |042
 |[[VW Bug|Volkswagen Beetle]] (3rd Color)
-| bgcolor="#D7B1CB" |[[Compact Kings Mini Collection (2022)|<font color="black">Compact Kings<font/>]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]]
+| bgcolor="#D7B1CB" |[[Compact Kings Mini Collection (2022)|<font color="black">Compact Kings</font>]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]][[Compact Kings Mini Collection (2022)|<font color="black">]]
 |2/5
 |[[File:20220401 181203.jpg|75px]]
 |-
