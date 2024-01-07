@@ -12,7 +12,8 @@ RUN apt-get update && apt-get install -y \
     libglib2.0-0
 
 # Install any dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirements1.txt
+RUN pip install -r requirements2.txt
 
 # Expose the port the app runs in
 EXPOSE 5000
