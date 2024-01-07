@@ -61,10 +61,10 @@ def process_hotwheels_image(image_url):
 
 def search_best_match(year_position, series_position, text_array, sideways_text_array):
     # Load the JSON files
-    filenames = ['cars.json', 'cars_2022.json', 'cars_2024.json']
+    filenames = ['cars_2023.json', 'cars_2022.json', 'cars_2024.json']
     data = []
     for filename in filenames:
-        with open(os.path.join('tmp', filename)) as f:
+        with open(os.path.join('data', filename)) as f:
             data.extend(json.load(f))
 
     best_match = None

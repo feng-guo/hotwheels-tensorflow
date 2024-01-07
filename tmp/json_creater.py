@@ -5,7 +5,7 @@ from link_getter import get_image_url
 from urllib.parse import quote
 
 # Read the file
-with open(os.path.join(os.path.dirname(__file__), 'temp.txt'), 'r') as file:
+with open(os.path.join(os.path.dirname(__file__), 'data_2024.txt'), 'r') as file:
     data = file.read()
 
 # Split the file into lines
@@ -88,5 +88,5 @@ for i, line in enumerate(lines):
 json_data = json.dumps(cars, indent=2)
 
 # Write the JSON to a file
-with open(os.path.join(os.path.dirname(__file__), 'test_reader.json'), 'w') as file:
+with open(os.path.join(os.path.dirname(__file__), '../data/cars_2024.json'), 'w') as file:
     file.write(json_data)
