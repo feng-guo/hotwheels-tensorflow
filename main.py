@@ -29,4 +29,4 @@ async def process_image(image: ImageUrl):
         result = process_hotwheels_image(image.url)
         return result
     except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
+        return {"error": str(e)}
