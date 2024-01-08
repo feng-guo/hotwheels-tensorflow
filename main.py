@@ -6,12 +6,11 @@ from hot_wheels_matcher import process_hotwheels_image
 app = FastAPI()
 
 # Add CORS middleware
-# origins = [
-#     "http://localhost:3000",  # LocalDev
-#     "https://feng-guo.netlify.app", # Prod
-#     # Add any other origins you need
-# ]
-origins = ["*"]
+origins = [
+    "http://localhost:3000",  # LocalDev
+    "https://feng-guo.netlify.app", # Prod
+    # Add any other origins you need
+]
 
 app.add_middleware(
     CORSMiddleware,
